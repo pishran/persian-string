@@ -1,0 +1,34 @@
+{
+    "name": "pishran/persian-string",
+    "description": "Convert Arabic/English/etc numbers and characters to Persian numbers and characters.",
+    "keywords": [
+        "string",
+        "persian"
+    ],
+    "homepage": "https://github.com/pishran/persian-string",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Farid Aghili",
+            "email": "farid@pishranit.ir",
+            "homepage": "https://www.faridaghili.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pishran\\PersianString\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pishran\\PersianString\\Test\\": "tests"
+        }
+    }
+}
